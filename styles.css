@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap');
+
+.carousel{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-img{
+    max-height: 79vh;
+    overflow: hidden;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+.profile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile h2{
+    font-size: 40px;
+    font-family: "Potta One";
+}
+
+.skill-container{
+    margin-top: 60px;
+}
+
+.skill-container h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.skill-container p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.competenze .fas,.competenze .fab {
+    font-size: 80px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.fa-code{
+    color:#FF4C00 ;
+}
+
+.fa-css3{
+    color:#0099FF ;
+}
+
+.fa-js-square{
+    color:#F3E200  ;
+}
+
+.competenze:hover .fas, .competenze:hover .fab{
+    transform: scale(1.4);
+}
+
+.soft-skill{
+    margin: auto;
+    max-width: 700px;
+}
+
+.soft-skill h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+  
+  .barra {
+    max-width: 600px;
+    height: 5px;
+    background-color: #E3E3E3;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin:auto;
+    overflow: hidden;
+  }
+  
+  .progresso {
+    height: 5px;
+    background-color: #00BCCF;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .soft:nth-of-type(1) .progresso {
+    width: 80%;
+  }
+  
+  .soft:nth-of-type(2) .progresso{
+    width: 40%;
+  }
+  
+  .soft:nth-of-type(3) .progresso{
+    width: 60%;
+  }
+  
+  .soft:nth-of-type(4) .progresso{
+    width: 70%;
+  }
+  
+  .soft:nth-of-type(5) .progresso{
+    width: 50%;
+  }
+  
+  .soft:nth-of-type(6) .progresso{
+    width: 80%;
+  }
+  
+  .soft:nth-of-type(7) .progresso{
+    width: 60%;
+  }
+  
+  
+  .progresso2 {
+    background-image: linear-gradient(90deg, #3499ff, #3a3985 );
+    display: hidden;
+    width: 0%;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  .soft:hover .progresso2{
+    width: 100%;
+    display:block;
+  }
+  
+  .softname{
+      font-size: 16px;
+      margin-bottom: 5px;
+  }
+
+  .softname:last-of-type{
+      margin-bottom: 0px;
+  }
+
+  .softbar{
+      padding-top: 10px;
+  }
+
+  .extra{
+      background-color: lightgray;
+      color: gray;
+      margin-top: 20px;
+  }
+
+  .linea{
+      width:90%;
+      height: 2px;
+      border-radius: 50px;
+      background-color: black;
+      margin:auto;
+      margin-bottom: 40px;
+  }
+
+  .story h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+    .paragrafo{
+        margin-bottom: 50px;
+        font-size: 20px;
+        line-height: 1.4em;
+
+    }
+
+    .paragrafo:last-of-type{
+        margin-bottom: 10px;
+    }
+
+    .paragrafo h3{
+        font-size:40px;
+        text-indent: 0px;
+    }
+
+h1{
+    font-family: "Potta One";
+}
+
+h3{
+    font-family: "Londrina Solid"
+}
+
+.social{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.social:first-of-type{
+    margin-right: 30px;
+}
+
+.social:last-of-type{
+    margin-left: 30px;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5999;
+}
+
+.fa-instagram:hover{
+    color: #e4405f;
+}
+
+#contattami{
+    justify-content: space-between;
+    display:flex;
+    font-size: 18px;
+}
+
+.mail{
+    color:white;
+}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 576px){
+      .softbar{
+          padding-top:0px;
+          padding-bottom:5px;
+      }
+      .profile p{
+          font-size: 12px;
+      }
+    .skill-container h1{
+          font-size: 40px;
+      }
+      .soft-skill h1 {
+          font-size: 40px;
+      }
+      .story h1 {
+        font-size: 40px;
+    }
+    .skill-container p{
+        font-size: 18px;
+    }
+    .barra{
+        max-width: 300px;
+    }
+    .paragrafo{
+        font-size: 16px;
+    }
+    #contattami{
+        text-align: center;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .paragrafo{
+        text-indent: 80px;
+
+    }
+  }
+
+  
